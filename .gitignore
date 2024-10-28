@@ -1,2 +1,10 @@
 # Ignroe virtual environemnt
 .venv/
+
+# Ignore python cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ignore idea file
+.idea
