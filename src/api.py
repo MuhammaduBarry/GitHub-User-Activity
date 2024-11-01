@@ -1,5 +1,11 @@
 import requests
 
+# A function to test if data was received successfully
+def grab_data(username: str):
+    url = f"https://api.github.com/users/{username}/events"
+    response = requests.get(url)
+    return response.status_code
+
 def fetch_data(username) -> None:
     url = f"https://api.github.com/users/{username}/events"
     response = requests.get(url)
