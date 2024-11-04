@@ -67,4 +67,4 @@ Contributions are welcome! Please follow these steps:
 
 This project was inspired by the GitHub User Activity roadmap on roadmap.sh. Special thanks to all contributors and open-source libraries.
 
-Roadmap.sh link:
+Roadmap.sh link:https://roadmap.sh/projects/github-user-activityt
