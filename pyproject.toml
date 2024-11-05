@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "github-user-activity"
+version = "0.1.0"
+authors = [
+    { name="Muhammadu Barry", email="muhammadubarry5@gmail.com" },
+]
+description = "Retrieve, analyze, and display GitHub user activity."
+
+dependencies = [
+    "requests ~= 2.32.3",
+    "rich ~= 13.9.3",
+    "typer ~= 0.12.5",
+]
+
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+tests = ["pytest",]
+
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
+
+
+[tool.setuptools.packages.find]
+where = ["src",]
